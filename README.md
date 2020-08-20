@@ -1,27 +1,26 @@
-# Auth0FrontendIntegration
+# Auth0 Angular Example (Authorization Code Flow)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+This example shows Auth0 client authentication with Angular. It's the Authorization Code Flow
 
-## Development server
+👉 See [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Configuration Auth0
 
-## Code scaffolding
+* Register and setup your tenant
+* Create an application ``Applications > Create Application > Type "Single Page Web Applications"``
+* Set the following attributes
+    * Allowed Callback URLs: ``http://localhost:4200``
+    * Allowed Logout URLs: ``http://localhost:4200```
+    * Allowed Web Origins: ``http://localhost:4200``
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuration Angular App
 
-## Build
+* Edit ``environment.ts``
+    * ``auth0ClientDomain``to app domain (``Application Settings > Basic Information > Domain``)
+    * ``auth0ClientId`` to app client id (``Application Settings > Basic Information > Client Id``)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Run it
 
-## Running unit tests
+* Install dependencies ``npm install`` (+ probably the ng cli ``npm install -g @angular/cli`` or run the ``serve command``via ``npx``)
+* Run ``ng serve``
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
