@@ -8,6 +8,7 @@ This example shows Auth0 client authentication with Angular. It's the Authorizat
 
 👉 Under the hood [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
 
+
 ## Configuration Auth0
 
 * Register and setup your tenant
@@ -31,6 +32,6 @@ This example shows Auth0 client authentication with Angular. It's the Authorizat
 
 ## Resources
 
-* 
+* [Authorization Code Grant Spec](https://tools.ietf.org/html/rfc6749#section-4.1)
 * [Authorization Code Flow](https://auth0.com/docs/flows/authorization-code-flow)
 
