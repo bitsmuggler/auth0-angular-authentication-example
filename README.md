@@ -4,7 +4,9 @@
 
 This example shows Auth0 client authentication with Angular. It's the Authorization Code Flow
 
-👉 See [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
+👉 [Demo](https://auth0-angular-authentication-example.netlify.app/) 
+
+👉 Under the hood [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
 
 ## Configuration Auth0
 
