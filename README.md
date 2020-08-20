@@ -1,5 +1,7 @@
 # Auth0 Angular Example (Authorization Code Flow)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e54bab85-555a-44b3-aecb-7f75a8559878/deploy-status)](https://app.netlify.com/sites/auth0-angular-authentication-example/deploys)
+
 This example shows Auth0 client authentication with Angular. It's the Authorization Code Flow
 
 👉 See [Authorization Code Grant](https://tools.ietf.org/html/rfc6749#section-4.1)
@@ -10,7 +12,7 @@ This example shows Auth0 client authentication with Angular. It's the Authorizat
 * Create an application ``Applications > Create Application > Type "Single Page Web Applications"``
 * Set the following attributes
     * Allowed Callback URLs: ``http://localhost:4200``
-    * Allowed Logout URLs: ``http://localhost:4200```
+    * Allowed Logout URLs: ``http://localhost:4200``
     * Allowed Web Origins: ``http://localhost:4200``
 
 ## Configuration Angular App
@@ -23,4 +25,10 @@ This example shows Auth0 client authentication with Angular. It's the Authorizat
 
 * Install dependencies ``npm install`` (+ probably the ng cli ``npm install -g @angular/cli`` or run the ``serve command``via ``npx``)
 * Run ``ng serve``
+
+
+## Resources
+
+* 
+* [Authorization Code Flow](https://auth0.com/docs/flows/authorization-code-flow)
 
