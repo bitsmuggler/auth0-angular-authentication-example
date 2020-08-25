@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e54bab85-555a-44b3-aecb-7f75a8559878/deploy-status)](https://app.netlify.com/sites/auth0-angular-authentication-example/deploys)
 
-This example shows Auth0 client authentication with Angular. It's the Authorization Code Flow
+This example shows Auth0 client authentication with Angular. It's the Authorization Code Flow.
 
 👉 [Demo](https://auth0-angular-authentication-example.netlify.app/) 
 
